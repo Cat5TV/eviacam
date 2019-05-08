@@ -22,7 +22,7 @@ fi
   for package in "${depends[@]}"; do yes | apt install "$package"; done
 
 # Remove wxWidgets version which uses GTK 2
-  apt remove libwxgtk3.0-dev
+  yes | apt remove libwxgtk3.0-dev
 
 # Create a temporary folder to work in
   tmpdir=`mktemp -d -p /tmp/`
