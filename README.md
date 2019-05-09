@@ -1,5 +1,5 @@
 # eviacam
-Install eViacam on a modern Linux machine
+Install [eViacam](https://github.com/cmauri/eviacam/) on a modern Linux machine
 
 ## Description
 eViacam allows you to control your Linux computer with face tracking. Your face movement is able to control your mouse cursor, reducing strain from RSI, or providing a reasonably useful accessibility feature to users who are able to move their head with precision (ie., shakiness would affect the usefulness of this process).
